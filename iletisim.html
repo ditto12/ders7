@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="icon" type="image/x-icon" href="umbrella.ico">
+
+</head>
+
+<style>
+
+.kenar{
+    border: 1px solid green;
+    width: 600px;
+    height: 500px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+.yey{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.yey2{
+    border: 1px solid green;
+    display: block;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 200px;
+}
+
+textarea{
+    height: 200px;
+    width: 200px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+main{
+    padding-left: 210px;
+}
+
+h1{
+    text-align: center;
+    margin-left: 15px;
+    color:azure;
+}
+   
+.head{
+    background-color: rgb(112, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+nav{
+    text-align: center;
+    background-color: rgb(143, 99, 99);
+    color:crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+li{
+    display: inline;
+    padding: 10px;
+}
+   
+.sira{
+    display: inline-block;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(147, 28, 28);
+    color: white;
+    text-align: center;
+}
+
+</style>
+
+<body style="background-color: rgb(186, 154, 99);">
+   
+   </head>
+   <body>
+       
+       <header>
+   
+           <div class="head">
+   
+           <a href="index.html"> <img src="Logo.png" width="50px"> </a>
+           <h1> Egemen Öztunçel </h1>
+   
+           </div>  
+           
+           <nav>
+               <ul>
+                   <li> <a href="index.html"> Anasayfa </a> </li>
+                   <li> <a href="hakkimizda.html"> Hakkımızda </a> </li>
+                   <li> <a href="iletisim.html"> İletişim </a> </li>
+               </ul>
+           </nav>
+   
+       </header>
+
+       <h2> <p style="text-align: center;">İletişim:</p> </h2>
+
+    <div class="kenar">
+
+        <main>
+        <section>
+    
+        <label for="nam" class="yey"> Adınız ve Soyadınız: </label>
+        <input type="text" placeholder="Adınızı ve Soyadınızı yazınız" name="nam" id="nam" class="yey2">
+        <label for="mail" class="yey"> E-mail: </label>
+        <input type="email" id="mail" placeholder="E-mail'i giriniz" class="yey2">
+        <label for="mesaj" class="yey"> Mesaj: </label>
+        <textarea id="mesaj" class="yey2" placeholder="Mesajınızı yazınız"></textarea>
+        <button class="yey2">Gönder</button>
+
+        </section>
+        </main>
+
+    </div>
+
+    <footer>
+
+        <p>Tüm Hakları Saklıdır ©</p>
+
+    </footer>
+
+</body>
+</html>
